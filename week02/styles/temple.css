@@ -1,0 +1,37 @@
+header, footer {
+  background-color: #333;
+  color:  #fff;
+  padding: 10px;
+    text-align: center;
+}
+main    {
+  width: 400px;
+    margin: 0 auto;
+}
+h1 {
+    margin: 10px 0;
+  font-size: 24px;
+  text-align: center;
+}   
+h2 {
+  border-bottom: 1px solid #222;
+}
+
+img {
+  width: 100%;
+  height: auto;
+ box-shadow: 0px 0px 20px #333;
+}
+
+section {
+  margin: 30px 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(162, 207, 248);
+}
+
+footer {
+  font-size: 0.90rem;
+  text-align: center;
+}
