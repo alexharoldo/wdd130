@@ -22,7 +22,7 @@ nav a {
 }
 p {
   line-height: 1.6;
-  padding: 2px
+  padding: 1px
 }
 
 main img {
@@ -50,4 +50,5 @@ footer {
   border-top: 1px solid rgba(0, 0, 0, 0.2)  ;
   text-align: center;
 }
+
 
