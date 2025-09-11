@@ -21,7 +21,6 @@ nav a {
   
 }
 p {
-  line-height: 1.6;
   padding: 0px;
 }
 
@@ -50,6 +49,7 @@ footer {
   border-top: 1px solid rgba(0, 0, 0, 0.2)  ;
   text-align: center;
 }
+
 
 
 
