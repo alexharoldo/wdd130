@@ -6,7 +6,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  justify-content: center;
   margin: 10px;
 }
 h1
@@ -49,6 +48,7 @@ footer {
   border-top: 1px solid rgba(0, 0, 0, 0.2)  ;
   text-align: center;
 }
+
 
 
 
