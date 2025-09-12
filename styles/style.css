@@ -2,9 +2,7 @@ nav {
   background-color: darkblue;
   padding: 10px;
 }
-main {
-  display: flex;
-  flex-wrap: wrap;
+main { 
   gap: 10px;
   margin: 10px;
 }
@@ -48,6 +46,7 @@ footer {
   border-top: 1px solid rgba(0, 0, 0, 0.2)  ;
   text-align: center;
 }
+
 
 
 
