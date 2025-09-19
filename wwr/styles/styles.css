@@ -1,0 +1,113 @@
+/* CSS Variables: Color Scheme and Fonts */
+:root {
+  --primary-color: #0077b6;       /* deep ocean blue */
+  --secondary-color: #90e0ef;     /* light aqua */
+  --accent1-color: #03045e;       /* navy blue */
+  --accent2-color: #caf0f8;       /* soft sky blue */
+  --heading-font: "Georgia", "Times New Roman", serif;
+  --body-font: "Verdana", "Arial", sans-serif;
+}
+
+/* Reset box model */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: var(--body-font);
+  color: var(--accent1-color);
+  background-color: var(--accent2-color);
+}
+
+/* Page layout width and centering */
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+/* Header styling */
+header {
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+  padding: 16px;
+}
+
+/* Headings */
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+/* Basic spacing for content elements */
+nav, p, section, article {
+  margin: 16px;
+  padding: 8px;
+}
+
+/* Social media links in footer */
+.socialmedia a {
+  text-decoration: none;
+}
+
+/* Hero container setup */
+.hero {
+  position: relative;
+}
+
+/* Hero image fills the container */
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Overlay heading */
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent1-color);
+  color: #fff;
+  font-size: 2rem;
+}
+
+/* Overlay article */
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* Specific styling for image inside hero article */
+.hero article img {
+  float: right;
+  width: 125px;
+  margin-left: 16px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+/* Optional: Style for nav list */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+nav ul li a {
+  color: var(--accent1-color);
+  text-decoration: none;
+  font-weight: bold;
+}
