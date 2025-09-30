@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soccer Quiz</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <main>
+    <h1>Test Your Soccer Knowledge</h1>
+    <form>
+      <!-- Question 1: Text input -->
+      <label for="q1">1. What country won the FIFA World Cup in 2018?</label>
+      <input type="text" id="q1" name="q1" required>
+
+      <!-- Question 2: Textarea -->
+      <label for="q2">2. Describe your favorite soccer moment or match:</label>
+      <textarea id="q2" name="q2" rows="4" required></textarea>
+
+      <!-- Question 3: Select dropdown -->
+      <label for="q3">3. Which position is responsible for defending the goal?</label>
+      <select id="q3" name="q3" required>
+        <option value="" selected disabled>Choose One ...</option>
+        <option value="goalkeeper">Goalkeeper</option>
+        <option value="striker">Striker</option>
+        <option value="midfielder">Midfielder</option>
+      </select>
+
+      <!-- Question 4: Number input -->
+      <label for="q4">4. How many players are on the field per team in a standard match?</label>
+      <input type="number" id="q4" name="q4" min="1" max="20" required>
+
+      <!-- Submit button -->
+      <button type="submit">Submit Quiz</button>
+    </form>
+  </main>
+</body>
+</html>
