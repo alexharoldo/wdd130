@@ -34,42 +34,49 @@
     <section class="map-form-container">
       <div class="map">
         <h2>Our Location</h2>
-       <iframe 
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.123456789!2d-115.123456!3d36.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c123456789abc%3A0xabcdef123456789!2s123%20Main%20River%20Street%2C%20Kolob%2C%20CA!5e0!3m2!1sen!2sus!4v1600000000000"
-  height="300" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-</iframe>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.123456789!2d-115.123456!3d36.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c123456789abc%3A0xabcdef123456789!2s123%20Main%20River%20Street%2C%20Kolob%2C%20CA!5e0!3m2!1sen!2sus!4v1600000000000"
+          height="300" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
       </div>
+<form action="#" method="post" class="contact-form">
+  <fieldset>
+    <legend>Send Us a Message</legend>
 
-      <form class="contact-form" action="#" method="post">
-        <fieldset>
-          <legend>Send Us a Message</legend>
+    <!-- Nome -->
+    <label for="user-name">Full Name:</label>
+    <input type="text" id="user-name" name="name" placeholder="Your name" required>
 
-          <label for="name">Full Name:</label>
-          <input type="text" id="name" name="name" placeholder="Your name" required>
+    <!-- Email -->
+    <label for="user-email">Email Address:</label>
+    <input type="email" id="user-email" name="email" placeholder="you@example.com" required>
 
-          <label for="email">Email Address:</label>
-          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+    <!-- Propósito da mensagem -->
+    <p>Purpose of Message:</p>
+    <div class="radio-group">
+      <input type="radio" id="purpose-general" name="purpose" value="general" required>
+      <label for="purpose-general">General Inquiry</label><br>
 
-          <p>Purpose of Message:</p>
-          <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
-          <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
-          <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+      <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+      <label for="purpose-reservation">Reservation Question</label><br>
 
-          <label for="message">Your Message:</label>
-          <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+      <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
+      <label for="purpose-suggestion">Website Suggestion</label>
+    </div>
 
-          <label>
-            <input type="checkbox" name="newsletter">
-            Please subscribe me to the monthly newsletter
-          </label>
+    <!-- Mensagem -->
+    <label for="user-message">Your Message:</label>
+    <textarea id="user-message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
 
-          <button type="submit" class="submit-button">Send Message</button>
-        </fieldset>
-      </form>
-    </section>
+    <!-- Newsletter -->
+    <input type="checkbox" id="newsletter" name="newsletter">
+    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
 
-    <section class="service-banner">
-      <h2>We Are Here to Serve You</h2>
+    <!-- Botão de envio -->
+    <button type="submit" id="submit-button" class="submit-button">Send Message</button>
+  </fieldset>
+</form>
+
     </section>
 
     <section class="employee-profiles">
@@ -83,7 +90,6 @@
         <img src="images/employee3.jpg" alt="Employee 3" width="100">
       </div>
     </section>
-
   </main>
 
   <footer>
@@ -102,5 +108,3 @@
   </footer>
 </body>
 </html>
-
-
