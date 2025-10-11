@@ -162,31 +162,5 @@ nav ul li a {
   border-radius: 50%;
 }
 
-.contact-form fieldset {
-  border: none;
-  padding: 1rem;
-}
-
-.contact-form label,
-.contact-form input,
-.contact-form textarea,
-.contact-form button {
-  display: block;
-  width: 100%;
-  margin-bottom: 1rem;
-}
-
-.radio-group {
-  margin-bottom: 1rem;
-}
-
-.submit-button {
-  background-color: #0077cc;
-  color: white;
-  padding: 0.75rem;
-  border: none;
-  cursor: pointer;
-  border-radius: 4px;
-}
 
 
